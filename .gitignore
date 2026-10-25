@@ -1,0 +1,8 @@
+
+.venv/
+kantin_backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.db
+.env
