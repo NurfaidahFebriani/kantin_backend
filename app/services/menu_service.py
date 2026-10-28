@@ -14,12 +14,9 @@ class MenuService:
 
     def create_menu(self, menu_data: dict):
         return self.repository.create(menu_data)
-    
+
     def update_menu(self, menu_id: int, menu_data: dict):
         return self.repository.update(menu_id, menu_data)
-    
-    
+
     def delete_menu(self, menu_id: int):
         return self.repository.delete(menu_id)
-
-
